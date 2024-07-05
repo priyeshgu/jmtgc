@@ -725,6 +725,14 @@ section {
     background-position: calc(100% - 10px) center;
 }
 
+
+.form-content input.location-icon {
+    background-image: url('../icons/location.jpg');
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: calc(100% - 10px) center;
+}
+
 .form-content input.email-icon {
     background-image: url('../icons/mail.png');
     background-repeat: no-repeat;
