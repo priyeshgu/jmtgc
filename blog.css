@@ -88,4 +88,7 @@
     color: grey;
 }
 
-
+#Blog.container {
+  max-width: none;
+  width: 100%;
+}
