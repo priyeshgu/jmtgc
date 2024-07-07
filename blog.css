@@ -57,7 +57,7 @@
   }
   
   .blog-card-heading {
-    font-size: 1.125rem;
+    font-size: 1.5rem;
     color: white;
     font-weight: 500;
     line-height: 155%;
@@ -143,12 +143,25 @@ body {
     background: hsl(84, 3%, 94%);
 }
 
+.blog-align{
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.right_side_img{
+  max-width: 60%;
+  padding-bottom: 2%;
+}
+
 
 /*left side vblog stykle start*/
 .blog_left__div h1 {
     font-family: Poppins-Bold;
     font-weight: bold;
     font-size: 3rem;
+    color:#18191B;
 }
 
 .blog_left__div .blog_title {

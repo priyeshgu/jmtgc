@@ -7237,8 +7237,8 @@ textarea.form-control-lg {
 }
 
 .mx-auto {
-    margin-right: auto !important;
-    margin-left: auto !important
+    margin-right: 2rem;
+    margin-left: 2rem
 }
 
 .my-0 {
