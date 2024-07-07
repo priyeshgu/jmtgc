@@ -65,7 +65,7 @@ select:focus,
 }
 
 input[type=number] {
-    -moz-appearance: textfield;
+    -moz-animation: textfield;
 }
 
 input[type=number]::placeholder,
@@ -297,7 +297,7 @@ nav.main-menu ul li a.book-btn:hover {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('../images/hero-img.jpg');
+    background-image: url('../image/4.jpg');
 }
 
 .hero-gredient {
@@ -421,6 +421,8 @@ nav.main-menu ul li a.book-btn:hover {
 .liner-gredient {
     background: linear-gradient(180deg, #0C0C0D 0%, #18191B 36.04%);
 }
+
+
 
 section {
     width: 100%;
@@ -719,35 +721,43 @@ section {
 }
 
 .form-content input.user-icon {
-    background-image: url('../images/user-icon.svg');
+    background-image: url('../icons/user.png');
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: calc(100% - 10px) center;
+}
+
+
+.form-content input.location-icon {
+    background-image: url('../icons/location.jpg');
     background-repeat: no-repeat;
     background-size: 20px;
     background-position: calc(100% - 10px) center;
 }
 
 .form-content input.email-icon {
-    background-image: url('../images/email-icon.svg');
+    background-image: url('../icons/mail.png');
     background-repeat: no-repeat;
     background-size: 20px;
     background-position: calc(100% - 10px) center;
 }
 
 .form-content input.calendar-icon {
-    background-image: url('../images/calendar-icon.svg');
+    background-image: url('../icons/callender.jpg');
     background-repeat: no-repeat;
     background-size: 20px;
     background-position: calc(100% - 10px) center;
 }
 
 .form-content input.down-arrow-icon {
-    background-image: url('../images/down-arrow-icon.svg');
+    background-image: url('../icons/down.png');
     background-repeat: no-repeat;
     background-size: 20px;
     background-position: calc(100% - 10px) center;
 }
 
 .form-content input.call-icon {
-    background-image: url('../images/call-icon.svg');
+    background-image: url('../icons/phone.png');
     background-repeat: no-repeat;
     background-size: 20px;
     background-position: calc(100% - 10px) center;
@@ -925,3 +935,437 @@ section {
 .designed-by a:hover {
     color: #FFA500;
 }
+
+/* ********************* Team Member Section ******************
+  
+  .team-cards-inner-container {
+    display: flex;
+    row-gap: 1.3rem;
+    column-gap: 1.3rem;
+  }
+  
+  .text-blk {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    line-height: 25px;
+  }
+  
+  .responsive-cell-block {
+    min-height: 75px;
+  }
+  
+  .responsive-container-block {
+    min-height: 75px;
+    height: fit-content;
+    width: 100%;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    justify-content: center;
+  }
+  
+  .inner-container {
+    max-width: 1200px;
+    min-height: 100vh;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    justify-content: center;
+  }
+  
+  .section-head {
+    font-size: 60px;
+    line-height: 70px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 24px;
+    margin-left: 0px;
+  }
+  
+  .section-body {
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 64px;
+    margin-left: 0px;
+  }
+  
+  .team-cards-outer-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .content-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 0px;
+    padding-right: 25px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+  }
+  
+  
+  .card {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    box-shadow: rgba(95, 95, 95, 0.1) 6px 12px 24px;
+    flex-direction: row;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+  
+  .card-container {
+    max-width: 350px;
+  }
+  
+  .card-content-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .person-name {
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+  }
+  
+  .person-info {
+    color: #000;
+    font-size: 11px;
+    line-height: 15px;
+  }
+  
+  .card-container {
+    max-width: 350px;
+  }
+  
+  /* .outer-container {
+    justify-content: center;
+    padding-top: 0px;
+    padding-right: 50px;
+    padding-bottom: 0px;
+    padding-left: 50px;
+    background-color: #FAF8CD;
+  } */
+  
+  
+ /* @keyframes bounce {
+  
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+      transform: translateY(0px);
+    }
+  
+    40% {
+      transform: translateY(-30px);
+    }
+  
+    60% {
+      transform: translateY(-15px);
+    }
+  
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+      transform: translateY(0px);
+    }
+  
+    40% {
+      transform: translateY(-30px);
+    }
+  
+    60% {
+      transform: translateY(-15px);
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .team-card-container {
+      justify-content: center;
+    }
+  
+    .section-head {
+      font-size: 50px;
+      line-height: 55px;
+    }
+  
+    .img-box {
+      max-width: 109px;
+      max-height: 109px;
+    }
+  
+    .content-container {
+      padding-top: 0px;
+      padding-right: 20px;
+      padding-bottom: 0px;
+      padding-left: 0px;
+    }
+  
+    .inner-container {
+      justify-content: space-evenly;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .inner-container {
+      margin-top: 60px;
+      margin-right: 0px;
+      margin-bottom: 60px;
+      margin-left: 0px;
+    }
+  
+    .section-body {
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+    }
+  
+    .img-box {
+      margin-top: 0px;
+      margin-right: 30px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+    }
+  
+    .content-box {
+      text-align: center;
+    }
+  
+    .content-container {
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 30px;
+      margin-left: 0px;
+    }
+  
+    .card-container {
+      max-width: 45%;
+    }
+  
+    .team-cards-inner-container {
+      justify-content: center;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .outer-container {
+      padding-top: 0px;
+      padding-right: 60px;
+      padding-bottom: 0px;
+      padding-left: 60px;
+    }
+  
+    .section-head {
+      font-size: 40px;
+      line-height: 45px;
+    }
+  
+    .content-box {
+      padding-top: 0px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+      padding-left: 0px;
+    }
+  
+    .section-body {
+      font-size: 12px;
+    }
+  
+    .img-box {
+      max-width: 68px;
+      max-height: 68px;
+    }
+  
+    .person-name {
+      font-size: 14px;
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 1px;
+      margin-left: 0px;
+    }
+  
+    .content-box {
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 46px;
+      margin-left: 0px;
+      text-align: left;
+    }
+  
+    .content-container {
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+    }
+  
+    .card-container {
+      max-width: 100%;
+    }
+  } */
+
+  /* ********************* Team Member Section *******************/
+  
+
+  
+  .responsive-cell-block {
+    min-height: 75px;
+  }
+  
+  .text-blk {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    line-height: 25px;
+  }
+  
+  .responsive-container-block {
+    min-height: 75px;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    justify-content: space-evenly;
+  }
+  
+  .team-head-text {
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+  }
+  
+  .team-head-text {
+    line-height: 50px;
+    width: 100%;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 50px;
+    margin-left: 0px;
+  }
+  
+  .container-team {
+    /* max-width:fit-content; */
+    /* margin-top: 60px; */
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 70px;
+    padding-right: 30px;
+    padding-bottom: 70px;
+    padding-left: 30px;
+  }
+  
+  .card {
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 20px 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+  }
+  
+  .card-container {
+    width: 280px;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+  }
+  
+  .name {
+    font-family: Poppins-Bold;
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #18191b;
+  }
+  
+  .position {
+    font-family: Poppins-SemiBold;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    color: #18191b;
+  }
+  
+  .feature-text {
+    font-family: poppines-light;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    color: rgb(122, 122, 122);
+    line-height: 30px;
+  }
+  
+  /* .social-icons {
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .team-image-wrapper {
+    clip-path: circle(50% at 50% 50%);
+    width: 130px;
+    height: 130px;
+  }
+  
+  .team-member-image {
+    max-width: 100%;
+  } */
+  
+  @media (max-width: 500px) {
+    .card-container {
+      width: 100%;
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 25px;
+      margin-left: 0px;
+    }
+  }
