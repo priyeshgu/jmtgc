@@ -64,9 +64,7 @@ select:focus,
     border-color: #ced4da;
 }
 
-input[type=number] {
-    -moz-animation: textfield;
-}
+
 
 input[type=number]::placeholder,
 input[type=text]::placeholder,
