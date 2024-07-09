@@ -64,9 +64,7 @@ select:focus,
     border-color: #ced4da;
 }
 
-input[type=number] {
-    -moz-animation: textfield;
-}
+
 
 input[type=number]::placeholder,
 input[type=text]::placeholder,
@@ -330,7 +328,7 @@ nav.main-menu ul li a.book-btn:hover {
 
 .hero-logo img {
     max-width: 100%;
-    max-height: 140px;
+    max-height: 200px;
 }
 
 .book-venue-btn {
@@ -831,6 +829,7 @@ section {
 
 /********************** Footer Section *******************/
 
+
 .footer-section {
     width: 100%;
     height: auto;
@@ -838,9 +837,10 @@ section {
     padding-top: 20px;
 }
 
-.footer-logo {
-    width: 100%;
-    height: auto;
+
+.footer-logo img{
+    width: auto;
+    height: 160px;
     float: left;
     padding-bottom: 20px;
 }
