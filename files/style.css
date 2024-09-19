@@ -178,11 +178,15 @@ body.offcanvas-active {
     height: auto;
     float: left;
     background: #18191B;
+    padding-right: 2rem;
+    padding-left: 1rem;
 }
 
 #navbar_main_mobile .btn-warning {
     background: #FFA500;
     border-color: #FFA500;
+    height: 5rem;
+    width: 5rem;
 }
 
 .header-top {
@@ -258,7 +262,7 @@ nav.main-menu ul li a {
 
 .navbar-brand img {
     max-width: 190px;
-    max-height: 60px;
+    max-height: 50px;
 }
 
 nav.main-menu ul li a.book-btn {
