@@ -559,8 +559,28 @@ section {
 
 .gallery-images {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    grid-template-columns: repeat(6, minmax(20rem, 1fr));
     grid-gap: 0px;
+}
+
+@media (max-width: 1024px) {
+    .gallery-images {
+        grid-template-columns: repeat(4, minmax(20rem, 1fr));
+    }
+}
+
+/* Media query for tablets or small laptops (zoomed in or lower resolution) */
+@media (max-width: 768px) {
+    .gallery-images {
+        grid-template-columns: repeat(3, minmax(20rem, 1fr));
+    }
+}
+
+/* Media query for phones */
+@media (max-width: 480px) {
+    .gallery-images {
+        grid-template-columns: repeat(2, minmax(20rem, 1fr));
+    }
 }
 
 .gallery-images img {
